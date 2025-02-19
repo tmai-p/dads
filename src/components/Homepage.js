@@ -1,5 +1,5 @@
 import React from 'react'
-import home_image from '../wolf-1.jpg'
+import home_image from '../wolf_img.jpg'
 
 function Homepage() {
   return (
