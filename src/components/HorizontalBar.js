@@ -9,7 +9,7 @@ function HorizontalBar() {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand>
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand" href="/dads">
               <img 
                 src={dads_logo}
                 className="d-inlinel-block align-top"
@@ -25,10 +25,10 @@ function HorizontalBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/About">About</Nav.Link>
-              <Nav.Link href="/Service">Service</Nav.Link>
-              <Nav.Link href="/Contact">Contact</Nav.Link>
+              <Nav.Link href="/dads">Home</Nav.Link>
+              <Nav.Link href="/dads/About">About</Nav.Link>
+              <Nav.Link href="/dads/Service">Service</Nav.Link>
+              <Nav.Link href="/dads/Contact">Contact</Nav.Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">

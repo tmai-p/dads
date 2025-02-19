@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer.js';
 import Homepage from './components/Homepage.js';
 import About from './components/About.js';
@@ -10,11 +10,11 @@ function App() {
   return (
     <Router>
       <HorizontalBar/>
-      <Switch>
-        <Route exact path="/" Component={<Homepage />} />
-        <Route path="/About" Component={<About />} />
-        <Route path="/Contact" component={<Contact />} />
-      </Switch>
+      <Routes>
+        <Route path="/dads" element={<Homepage />} />
+        <Route path="/dads/About" element={<About />} />
+        <Route path="/dads/Contact" element={<Contact />} />
+      </Routes>
       <Footer/>
     </Router>
   );
