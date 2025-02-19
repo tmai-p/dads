@@ -9,14 +9,14 @@ import HorizontalBar from './components/HorizontalBar.js';
 function App() {
   return (
     <HashRouter>
-      <HorizontalBar/>
+      <HorizontalBar />
       <Routes>
-        <Route path="/dads" element={<Homepage />} />
-        <Route path="/dads/about" element={<About/>} />
-        <Route path="/dads/contact" element={<Contact/>} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/dads/about" element={<About />} />
+        <Route path="/dads/contact" element={<Contact />} />
       </Routes>
-      <Footer/>
-    </HashRouter>
+    <Footer />
+    </HashRouter>  
   );
 }
 
