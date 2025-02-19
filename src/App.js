@@ -12,8 +12,8 @@ function App() {
       <HorizontalBar/>
       <Routes>
         <Route path="/dads" element={<Homepage />} />
-        <Route path="/dads/About" element={<About />} />
-        <Route path="/dads/Contact" element={<Contact />} />
+        <Route path="/dads/about" element={<About/>} />
+        <Route path="/dads/contact" element={<Contact/>} />
       </Routes>
       <Footer/>
     </Router>

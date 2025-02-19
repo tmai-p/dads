@@ -26,9 +26,9 @@ function HorizontalBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="/dads">Home</Nav.Link>
-              <Nav.Link href="/dads/About">About</Nav.Link>
-              <Nav.Link href="/dads/Service">Service</Nav.Link>
-              <Nav.Link href="/dads/Contact">Contact</Nav.Link>
+              <Nav.Link href="/dads/about">About</Nav.Link>
+              <Nav.Link href="/dads/service">Service</Nav.Link>
+              <Nav.Link href="/dads/contact">Contact</Nav.Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
