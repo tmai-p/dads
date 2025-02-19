@@ -11,9 +11,9 @@ function App() {
     <Router>
       <HorizontalBar/>
       <Switch>
-        <Route exact path="/" Component={Homepage} />
-        <Route path="/About" Component={About} />
-        <Route path="/Contact" component={Contact} />
+        <Route exact path="/" Component={<Homepage />} />
+        <Route path="/About" Component={<About />} />
+        <Route path="/Contact" component={<Contact />} />
       </Switch>
       <Footer/>
     </Router>
