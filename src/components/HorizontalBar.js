@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import dads_logo from '../images/dads_logo.jpg'
+import dads_logo from '../dads_logo.jpg'
 
 function HorizontalBar() {
     const isHidden = true;

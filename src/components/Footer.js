@@ -1,6 +1,6 @@
 import React from 'react'
-import img_front_door from '../images/front-door.jpg'
-import img_dads_logo from '../images/dads_logo.jpg'
+import img_front_door from '../front-door.jpg'
+import img_dads_logo from '../dads_logo.jpg'
 
 function Footer() {
   return (
